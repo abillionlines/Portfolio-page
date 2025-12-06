@@ -8,11 +8,23 @@ body {
   text-align: center;
   flex-direction: column;
 }
-
+/*
 body img {
-  width: 25%;
+  width: 300px;
+  height: 200px;
 }
-
+*/
+.hero img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center top;
+}
+.projects img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
 .navbar {
   background-color: #222;
   color: white;
@@ -54,12 +66,14 @@ body img {
   padding: 40px 20px;
   background-color: #f8f8f8;
 }
+
+/*
 .projects img {
   width: 90%;
   height: 150px;
   object-fit: contain;
 }
-
+*/
 .project-grid {
   display: flex;
   justify-content: center;
@@ -79,8 +93,4 @@ footer {
   color: white;
   padding: 15px;
   font-size: 14px;
-}
-
-html {
-  scroll-behavior: smooth;
 }
